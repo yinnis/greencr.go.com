@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #488000 url('../images/background.png')  repeat-x;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+    line-height: 18px;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+sup{
+    font-size: 0.5em;
+}
+
+p{
+    margin-bottom: 14px;
+    text-align: justify;
+
+}
+
+img.picA{
+    position: relative;
+    top: -1px;
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+}
+
+img.picB{
+    position: relative;
+    top: -2px;
+    width: 200px;
+    height: 210px;
+    padding: 5px;
+}
+
+img.floatleft{
+    float: left;
+    margin: 0px 14px 3px 0px;
+
+}
+
+#outer{
+    position: relative;
+    width: 60%;
+    margin-top: 10px;
+    background: #fff;
+    border: initial;
+    overflow: overlay;
+    margin: 0px auto;
+}
+
+#header{
+    max-width: 110%;
+    height: 170px;
+}
+
+#header #logo{
+    float: left;
+    width: 33%;
+    color: #fff;
+    text-align: center;
+    height: 170px;
+    padding-top: 20px;
+}
+
+.h1{
+    color: #047800;
+    position: absolute;
+    font-size: 40px;
+    top: 50px;
+    left: 10px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+#pricipalcontent{
+    width: 100%;
+    background-color: white;
+}
+
+#secondarycontent{
+    width: 65%;
+    float: right;
+}
+
+#secondarycontent h3{
+    font-size: 16px;
+    line-height: 25px;
+    color: #080808;
+    letter-spacing: -1;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 25px;
+}
+
+#secondarycontent .content{
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    margin-left: 1px;
+}
+
+#primarycontent{
+    float: left;
+    width: 25%;
+    margin-right: 3px;
+}
+
+#primarycontent h3{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #080808;
+    letter-spacing: -1;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
+
+#primarycontent h4{
+    font-size: 18px;
+    line-height: 10px;
+    color: black;
+    letter-spacing: -1;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
+
+#primarycontent .post{
+    margin-bottom: 30px;
+}
+
+#primarycontent .post .content{
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+
+}
+
+#footer-bottom #footer-menu{
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+}
+#footer-bottom #footer-menu ul{
+    margin: 1.8125em 0;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    background-color: #488000;
+}
+
+
+#footer-bottom #footer-menu ul li{
+    display: inline-block;
+
+}
+
+#footer-bottom #footer-menu ul li a{
+    display: block;
+    padding: 0 1em;
+}
+
+#footer-bottom #footer-menu ul li ::after{
+    content: "|";
+}
+
+#footer-bottom #footer-menu ul li :last-child::after{
+    content: "";
+}
+
+@media screen and (max-width: 1000px) {
+    #header #logo{
+        width: 100%;
+    }
+
+    #header #splash{
+        display: none;
+    }
+
+    #secondarycontent{
+        display: none;
+    }
+    #primarycontent{
+        width: 100%;
+    }
+}
+
+
+
+
+
